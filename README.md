@@ -1,21 +1,21 @@
 
 # Deep Research AI System
 
-## 🧠 Overview
+##  Overview
 
 The **Deep Research AI System** is an agent-based tool designed to conduct comprehensive online research on any given topic. It uses the Tavily API for retrieving web-based information and features a multi-agent architecture that processes and synthesizes findings into well-structured insights.
 
-## 🚀 Features
+##  Features
 
-- 🔍 **Web Information Gathering**: Uses Tavily's advanced search API for real-time, relevant information retrieval.
-- 🧑‍💻 **Multi-Agent Architecture**:
+-  **Web Information Gathering**: Uses Tavily's advanced search API for real-time, relevant information retrieval.
+-  **Multi-Agent Architecture**:
   - Research Agent for data retrieval.
   - Drafting Agent for transforming raw data into meaningful output.
-- 🧠 **Information Synthesis**: Automatically extracts and organizes key data from multiple sources.
-- 📚 **Detailed Research Output**: Provides comprehensive, source-attributed results.
+-  **Information Synthesis**: Automatically extracts and organizes key data from multiple sources.
+-  **Detailed Research Output**: Provides comprehensive, source-attributed results.
 - 💾 **JSON Export**: Outputs structured research data and findings into a JSON file for further use.
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system is designed with a dual-agent architecture:
 
@@ -31,7 +31,7 @@ The system is designed with a dual-agent architecture:
    - Manages the interaction between agents  
    - Handles input/output and task orchestration
 
-## 💻 How It Works
+##  How It Works
 
 When prompted, enter your research question. The system will:
 
@@ -41,14 +41,14 @@ When prompted, enter your research question. The system will:
 4. Display the answer in the console  
 5. Save the complete research results to a JSON file  
 
-## 🛠️ Installation
+##  Installation
 
-### 📋 Prerequisites
+###  Prerequisites
 
 - Python 3.9 or higher  
 - Tavily API Key (Get one from [Tavily](https://tavily.com/))  
 
-### ⚙️ Setup
+###  Setup
 
 1. **Clone the repository**  
    ```bash
@@ -94,7 +94,7 @@ When prompted, enter your research question. The system will:
   - Initializes and coordinates agents  
   - Manages data flow and export  
 
-## 📌 Example Queries
+##  Example Queries
 
 Here are some examples you can try:
 
@@ -104,14 +104,14 @@ Here are some examples you can try:
 - "What are the latest developments in renewable energy?"
 - "What are the differences between artificial intelligence and machine learning?"
 
-## ⚠️ Limitations
+##  Limitations
 
 - The quality of research depends on Tavily's search results  
 - Limited to information available on the public web  
 - Does not have the ability to follow complex reasoning chains  
 - No memory of previous research sessions  
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Integration with additional search APIs for broader coverage  
 - Implementation of a memory system for context retention  
@@ -119,11 +119,11 @@ Here are some examples you can try:
 - Supervisor agent to validate and refine research findings  
 - Citation formatting for academic research  
 
-## 🪪 License
+##  License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Tavily for providing the search API  
 - LangChain community for inspiration on agent-based architectures
